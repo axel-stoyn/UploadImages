@@ -1,6 +1,6 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -21,4 +21,73 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+#mainContainer {
+    /*clear: both;
+    width: 700px;
+    margin: 10px;*/
+}
+	
+/*TopBar*/		
+#leftNav {
+    padding: 10px 10px 10px 10px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+/*Preview*/		
+#downDisplay {
+    position:fixed;
+    padding: 10px 100px 100px 10px;
+}
+			
+img {
+    /*margin: 10px 0 10px 0;*/
+}
+			
+/*ImageInfo*/
+p1  {
+    position: fixed; 
+    right: 550px;
+}
+
+p2 {
+    position: fixed;
+    right: 600px;
+    top: 170px;
+}
+
+p3 {
+    position:fixed;
+    right: 600px;
+    top:190px;
+}
+
+p4 {
+    position:fixed;
+    right: 600px;
+    top:210px;
+}
+p5 {
+    position:fixed;
+    right: 600px;
+    top:230px;
+
+}
+p6 {
+    position:fixed;
+    right: 600px;
+    top:250px;
+
+}
+p7 {
+    position:fixed;
+    right: 600px;
+    top:270px;
+}
+
+/*Title ImageInfo Fat*/
+.fat{
+    font-weight: 600;
 }
